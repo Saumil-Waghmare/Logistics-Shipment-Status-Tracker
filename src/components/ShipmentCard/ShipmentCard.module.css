@@ -1,0 +1,123 @@
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e8ecef;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e8ecef;
+}
+
+.trackingNumber {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  letter-spacing: 0.5px;
+}
+
+.statusBadge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Status Colors */
+.statusDelivered {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.statusInTransit {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.statusOutForDelivery {
+  background-color: #cfe2ff;
+  color: #084298;
+}
+
+.statusPending {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.statusCancelled {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.label {
+  font-weight: 500;
+  color: #6c757d;
+  font-size: 0.9rem;
+  min-width: 120px;
+}
+
+.value {
+  color: #2c3e50;
+  font-size: 0.95rem;
+  text-align: right;
+  flex: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card {
+    padding: 16px;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .trackingNumber {
+    font-size: 1rem;
+  }
+
+  .infoRow {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .label {
+    min-width: auto;
+    font-size: 0.85rem;
+  }
+
+  .value {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+}

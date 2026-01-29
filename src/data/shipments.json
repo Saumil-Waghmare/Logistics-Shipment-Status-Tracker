@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "trackingNumber": "TRK001234567",
+    "status": "Delivered",
+    "lastLocation": "New York, NY",
+    "estimatedDelivery": "2026-01-28T10:30:00Z",
+    "sender": "Mehta Tech Supplies Pvt. Ltd.",
+    "receiver": "Aarav Mehta"
+  },
+  {
+    "id": 2,
+    "trackingNumber": "TRK002345678",
+    "status": "In Transit",
+    "lastLocation": "Chicago, IL",
+    "estimatedDelivery": "2026-01-30T14:00:00Z",
+    "sender": "Sharma Global Logistics",
+    "receiver": "Priya Sharma"
+  },
+  {
+    "id": 3,
+    "trackingNumber": "TRK003456789",
+    "status": "Out for Delivery",
+    "lastLocation": "Los Angeles, CA",
+    "estimatedDelivery": "2026-01-29T16:45:00Z",
+    "sender": "Iyer Express Shipping",
+    "receiver": "Rohan Iyer"
+  },
+  {
+    "id": 4,
+    "trackingNumber": "TRK004567890",
+    "status": "Pending",
+    "lastLocation": "Houston, TX",
+    "estimatedDelivery": "2026-02-01T09:00:00Z",
+    "sender": "Gupta Warehouse Solutions",
+    "receiver": "Neha Gupta"
+  },
+  {
+    "id": 5,
+    "trackingNumber": "TRK005678901",
+    "status": "Cancelled",
+    "lastLocation": "Miami, FL",
+    "estimatedDelivery": "2026-01-27T12:00:00Z",
+    "sender": "Singh FastTrack Shipping",
+    "receiver": "Vikram Singh"
+  }
+]
